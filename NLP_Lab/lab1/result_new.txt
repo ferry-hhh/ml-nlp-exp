@@ -1,0 +1,88 @@
+拼音输入：jin tian wan shang you hao kan de dian ying
+真实语句：今天晚上有好看的电影
+预测语句：今天晚上有好看的电影
+该句的单字正确率为：1.0
+拼音输入：bei jing ao yun hui kai mu shi fei chang jing cai
+真实语句：北京奥运会开幕式非常精彩
+预测语句：北京奥运会开幕是非常精彩
+该句的单字正确率为：0.9166666666666666
+拼音输入：quan guo ren min dai biao da hui zai bei jing ren min da hui tang long zhong zhao kai
+真实语句：全国人民代表大会在北京人民大会堂隆重召开
+预测语句：全国人民代表大会在北京人民大会汤隆重召开
+该句的单字正确率为：0.95
+拼音输入：jin yong de wu xia xiao shuo fei chang jing cai
+真实语句：金庸的武侠小说非常精彩
+预测语句：金庸的武侠小说非常精彩
+该句的单字正确率为：1.0
+拼音输入：ni de shi jie hui bian de geng jing cai
+真实语句：你的世界会变得更精彩
+预测语句：你的世界会变得更精彩
+该句的单字正确率为：1.0
+拼音输入：shen du xue xi ji shu tui dong le ren gong zhi neng de fa zhan 
+真实语句：深度学习技术推动了人工智能的发展
+预测语句：深度学习技术推动了人工智能的发展
+该句的单字正确率为：1.0
+拼音输入：zai tian an men guang chang ju xing le long zhong de yue bing shi
+真实语句：在天安门广场举行了隆重的阅兵式
+预测语句：在天安门广场举行了隆重的阅兵式
+该句的单字正确率为：1.0
+拼音输入：luo ji dai shu you xie chang yong de ji ben gong shi
+真实语句：逻辑代数有些常用的基本公式
+预测语句：罗纪大数有些常用的基本公式
+该句的单字正确率为：0.7692307692307693
+拼音输入：qing da jia xuan ze ni jue de ke yi de shi jian
+真实语句：请大家选择你觉得可以的时间
+预测语句：请大家选择你觉得可以的时间
+该句的单字正确率为：1.0
+拼音输入：ju you liang hao de gou tong neng li he jiao liu neng li
+真实语句：具有良好的沟通能力和交流能力
+预测语句：具有良好的沟通能力和交流能力
+该句的单字正确率为：1.0
+拼音输入：ren zai yue du shi shi cong zuo dao you zhu zi du ru de
+真实语句：人在阅读时是从左到右逐字读入的
+预测语句：人在阅读是失聪做到有竹子都入的
+该句的单字正确率为：0.4666666666666667
+拼音输入：jian shao ke cheng de ke shi shi shi fen ke xue de
+真实语句：减少课程的课时是十分科学的
+预测语句：减少课程的可是世十分科学的
+该句的单字正确率为：0.7692307692307693
+拼音输入：wo dai zhe yi fu hei kuang yan jing
+真实语句：我戴着一副黑框眼镜
+预测语句：我带着遗腹黑狂眼睛
+该句的单字正确率为：0.4444444444444444
+拼音输入：ta gang qin tan de bu cuo
+真实语句：他钢琴弹得不错
+预测语句：她钢琴弹的不错
+该句的单字正确率为：0.7142857142857143
+拼音输入：xiao peng you men dou xi huan qu jiao you
+真实语句：小朋友们都喜欢去郊游
+预测语句：小朋友们都喜欢去郊游
+该句的单字正确率为：1.0
+拼音输入：zhe ge wan ju hen you qu
+真实语句：这个玩具很有趣
+预测语句：这个玩具很有趣
+该句的单字正确率为：1.0
+拼音输入：ta hen sheng qi
+真实语句：他很生气
+预测语句：他很生气
+该句的单字正确率为：1.0
+拼音输入：jin tian tian qi hen hao
+真实语句：今天天气很好
+预测语句：今天天气很好
+该句的单字正确率为：1.0
+拼音输入：wo men qu san bu ba
+真实语句：我们去散步吧
+预测语句：我们去三部霸
+该句的单字正确率为：0.5
+拼音输入：da jia ke neng bu zhi dao
+真实语句：大家可能不知道
+预测语句：大家可能不知道
+该句的单字正确率为：1.0
+拼音输入：wo men su she de deng huai le
+真实语句：我们宿舍的灯坏了
+预测语句：我们素摄的灯坏了
+该句的单字正确率为：0.75
+*********************************************************
+完全正确的句子个数：12
+字的正确率为：0.8761061946902655
+句子的正确率：0.5714285714285714
