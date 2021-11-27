@@ -281,8 +281,14 @@ class CART:
         for point in s_split_points:
             data_set_v1 = list(filter(lambda item: item[divide_attr]<=point, data_set))
             data_set_v2 = list(filter(lambda item: item[divide_attr]>point, data_set))
-            mse_value1 = (self.Gini(data_set_v1) * len(data_set_v1)) / data_num
-            mse_value2 = (self.Gini(data_set_v2) * len(data_set_v2)) / data_num
+            if len(data_set_v1) != 0:
+                mse_value1 = (self.cal_mse(data_set_v1) * len(data_set_v1)) / data_num
+            else:
+                mse_value1 = 0
+            if len(data_set_v2) != 0:
+                mse_value2 = (self.cal_mse(data_set_v2) * len(data_set_v2)) / data_num
+            else:
+                mse_value2 = 0
             split_res.append(mse_value1 + mse_value2)
         # 求最优划分点与对应的mse
         mse_value = min(split_res)
