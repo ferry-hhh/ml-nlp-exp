@@ -1,0 +1,51 @@
+{
+    "model_type": "TensorFlow",
+    "model_algorithm": "predict_analysis",
+    "apis": [
+        {
+            "protocol": "http",
+            "url": "/",
+            "method": "post",
+            "request": {
+                "Content-type": "application/json",
+                "data": {
+                  "type": "list",
+                  "minItems": 1,
+                  "maxItems": 1000
+                }
+            },
+            "response": {
+                "Content-type": "multipart/form-data",
+                "data": {
+                    "type": "object",
+                    "properties":{
+                        "predicted_label":{
+                            "type":"string"
+                        }
+                    }
+                }
+            }
+        }],
+    "dependencies": [
+        {
+            "installer": "pip",
+            "packages": [
+                {
+                    "restraint": "EXACT",
+                    "package_version": "1.18.5",
+                    "package_name": "numpy"
+                },
+                {
+                    "restraint": "EXACT",
+                    "package_version": "2.10.0",
+                    "package_name": "h5py"
+                },
+                {
+                    "restraint": "EXACT",
+                    "package_version": "1.1.0",
+                    "package_name": "joblib"
+                }]
+        }
+    ]
+}
+
